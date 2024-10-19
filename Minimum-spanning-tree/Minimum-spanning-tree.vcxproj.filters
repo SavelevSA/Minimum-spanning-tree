@@ -18,5 +18,8 @@
     <ClCompile Include="Minimum-spanning-tree.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="gevorkyan.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
