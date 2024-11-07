@@ -128,12 +128,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DataGenerator.cpp" />
     <ClCompile Include="Example.cpp" />
     <ClCompile Include="gevorkyan.cpp" />
     <ClCompile Include="Minimum-spanning-tree.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Example.h" />
+    <ClInclude Include="Algorithms.h" />
+    <ClInclude Include="DataGenerator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
