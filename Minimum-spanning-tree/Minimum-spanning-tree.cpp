@@ -37,7 +37,7 @@ int main() {
     RUN(example, matrix);
     //RUN(DFS_by_Gevorkyan, matrix);
     //RUN(Kraskall_by_Vasukova, matrix);
-    //RUN(Prim_by_Chigladze, matrix);
+    RUN(Prim_by_Chigladze, matrix);
     //RUN(Boruvki_by_Merenkova, matrix);
     //RUN(Dijkstra_by_Tishenko, matrix);
 
@@ -50,7 +50,7 @@ int main() {
     RUN(example, matrix);
     //RUN(DFS_by_Gevorkyan, matrix);
     //RUN(Kraskall_by_Vasukova, matrix);
-    //RUN(Prim_by_Chigladze, matrix);
+    RUN(Prim_by_Chigladze, matrix);
     //RUN(Boruvki_by_Merenkova, matrix);
     //RUN(Dijkstra_by_Tishenko, matrix);
 
@@ -63,7 +63,7 @@ int main() {
     RUN(example, matrix);
     //RUN(DFS_by_Gevorkyan, matrix);
     //RUN(Kraskall_by_Vasukova, matrix);
-    //RUN(Prim_by_Chigladze, matrix);
+    RUN(Prim_by_Chigladze, matrix);
     //RUN(Boruvki_by_Merenkova, matrix);
     //RUN(Dijkstra_by_Tishenko, matrix);
 
@@ -76,7 +76,7 @@ int main() {
     RUN(example, matrix);
     //RUN(DFS_by_Gevorkyan, matrix);
     //RUN(Kraskall_by_Vasukova, matrix);
-    //RUN(Prim_by_Chigladze, matrix);
+    RUN(Prim_by_Chigladze, matrix);
     //RUN(Boruvki_by_Merenkova, matrix);
     //RUN(Dijkstra_by_Tishenko, matrix);
 
@@ -89,7 +89,7 @@ int main() {
     RUN(example, matrix);
     //RUN(DFS_by_Gevorkyan, matrix);
     //RUN(Kraskall_by_Vasukova, matrix);
-    //RUN(Prim_by_Chigladze, matrix);
+    RUN(Prim_by_Chigladze, matrix);
     //RUN(Boruvki_by_Merenkova, matrix);
     //RUN(Dijkstra_by_Tishenko, matrix);
 
