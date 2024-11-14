@@ -1,33 +1,27 @@
-
 #include <limits>
-#include <iostream>
 #include <vector>
 #include <climits>
-#include "Algorithms.h"
-#include <climits> // Для использования INT_MAX
-#include <utility> // Для использования пары
 
 using namespace std;
 
-#define V 5 // Количество вершин в графе (можно изменить по необходимости)
+// Структура для представления ребра
+struct Edge {
+    int u, v, weight;
+};
 
 // Функция для нахождения минимального остовного дерева с помощью алгоритма Прима
-void primMST(int graph[V][V]) {
+int Prim_by_Chigladze(std::vector<std::vector<int>>& matrix) {
+    int V = matrix.size(); // Количество вершин графа
+    if (V == 0) return 0;  // Если граф пустой, возвращаем 0
+
     // Массив для хранения MST (включены ли вершины в остовное дерево)
-    bool inMST[V];
+    std::vector<bool> inMST(V, false);
 
     // Массив для хранения минимальных ключей (минимальных ребер для каждой вершины)
-    int key[V];
+    std::vector<int> key(V, INT_MAX);
 
     // Массив для хранения родительских вершин
-    int parent[V];
-
-    // Инициализация всех ключей как бесконечность, parent как -1, и inMST как false
-    for (int i = 0; i < V; i++) {
-        key[i] = INT_MAX;
-        inMST[i] = false;
-        parent[i] = -1;
-    }
+    std::vector<int> parent(V, -1);
 
     // Начнем с вершины 0 (это можно изменить)
     key[0] = 0;
@@ -51,18 +45,18 @@ void primMST(int graph[V][V]) {
         for (int v = 0; v < V; v++) {
             // Если существует ребро между вершинами u и v, и v не включена в MST,
             // и вес ребра меньше текущего ключа для вершины v
-            if (graph[u][v] && !inMST[v] && graph[u][v] < key[v]) {
-                key[v] = graph[u][v];
+            if (matrix[u][v] && !inMST[v] && matrix[u][v] < key[v]) {
+                key[v] = matrix[u][v];
                 parent[v] = u;
             }
         }
     }
 
-    // Выводим результаты
-    cout << "Ребра минимального остовного дерева (MST):\n";
+    // Теперь можно возвращать итоговый результат (например, сумму весов MST)
+    int totalWeight = 0;
     for (int i = 1; i < V; i++) {
-        cout << "Вершина " << i << " соединена с вершиной " << parent[i]
-             << " весом " << graph[i][parent[i]] << endl;
+        totalWeight += matrix[i][parent[i]];  // Добавляем вес ребра в MST
     }
-}
 
+    return totalWeight;  // Возвращаем общий вес минимального остовного дерева
+}
