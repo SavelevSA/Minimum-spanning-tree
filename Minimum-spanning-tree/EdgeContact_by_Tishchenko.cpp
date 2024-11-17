@@ -18,7 +18,7 @@ void unionSets(int u, int v, std::vector<int>& parent) {
     }
 }
 
-int findMSTWeight(const std::vector<std::vector<int>>& matrix) {
+int EdgeContact_by_Tishchenko(const std::vector<std::vector<int>>& matrix) {
     int n = matrix.size();  
 
     std::vector<int> parent(n);
