@@ -18,7 +18,7 @@
     <ClCompile Include="Minimum-spanning-tree.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="gevorkyan.cpp">
+    <ClCompile Include="greedy_by_Gevorkyan.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Example.cpp">

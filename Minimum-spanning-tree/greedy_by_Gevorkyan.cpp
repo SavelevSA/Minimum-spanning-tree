@@ -6,6 +6,7 @@
 
 using namespace std;
 
+
 // Функция для поиска минимального остовного дерева с помощью жадного метода
 int greedy_by_Gevorkyan(const vector<vector<int>>& matrix) {
     int n = matrix.size();

@@ -132,6 +132,7 @@
     <ClCompile Include="Example.cpp" />
     <ClCompile Include="gevorkyan.cpp" />
     <ClCompile Include="Minimum-spanning-tree.cpp" />
+    <ClCompile Include="Prim_by_Chigladze.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Algorithms.h" />
