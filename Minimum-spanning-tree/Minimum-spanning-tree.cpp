@@ -39,7 +39,7 @@ int main() {
     //RUN(Kraskall_by_Vasukova, matrix);
     //RUN(Prim_by_Chigladze, matrix);
     //RUN(Boruvki_by_Merenkova, matrix);
-    //RUN(Dijkstra_by_Tishenko, matrix);
+    //RUN(EdgeContact_by_Tishchenko, matrix);
 
 
 
@@ -52,7 +52,7 @@ int main() {
     //RUN(Kraskall_by_Vasukova, matrix);
     //RUN(Prim_by_Chigladze, matrix);
     //RUN(Boruvki_by_Merenkova, matrix);
-    //RUN(Dijkstra_by_Tishenko, matrix);
+    //RUN(EdgeContact_by_Tishchenko, matrix);
 
 
 
@@ -65,7 +65,7 @@ int main() {
     //RUN(Kraskall_by_Vasukova, matrix);
     //RUN(Prim_by_Chigladze, matrix);
     //RUN(Boruvki_by_Merenkova, matrix);
-    //RUN(Dijkstra_by_Tishenko, matrix);
+    //RUN(EdgeContact_by_Tishchenko, matrix);
 
 
 
@@ -78,7 +78,7 @@ int main() {
     //RUN(Kraskall_by_Vasukova, matrix);
     //RUN(Prim_by_Chigladze, matrix);
     //RUN(Boruvki_by_Merenkova, matrix);
-    //RUN(Dijkstra_by_Tishenko, matrix);
+    //RUN(EdgeContact_by_Tishchenko, matrix);
 
 
 
@@ -91,7 +91,7 @@ int main() {
     //RUN(Kraskall_by_Vasukova, matrix);
     //RUN(Prim_by_Chigladze, matrix);
     //RUN(Boruvki_by_Merenkova, matrix);
-    //RUN(Dijkstra_by_Tishenko, matrix);
+    //RUN(EdgeContact_by_Tishchenko, matrix);
 
     cout << "Нажмите Enter чтобы выйти...";
     cin.get();
