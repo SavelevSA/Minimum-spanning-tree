@@ -131,6 +131,7 @@
     <ClCompile Include="DataGenerator.cpp" />
     <ClCompile Include="Example.cpp" />
     <ClCompile Include="gevorkyan.cpp" />
+    <ClCompile Include="Kraskall_vasukova.cpp" />
     <ClCompile Include="Minimum-spanning-tree.cpp" />
     <ClCompile Include="Prim_by_Chigladze.cpp" />
   </ItemGroup>
