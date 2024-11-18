@@ -2,6 +2,7 @@
 #include <algorithm>
 #include <climits>
 #include "Algorithms.h"
+#include <iostream>
 
 using namespace std;
 
@@ -28,6 +29,7 @@ int greedy_by_Gevorkyan(const vector<vector<int>>& matrix) {
         for (int i = 0; i < n; ++i) {
             if (visited[i]) {
                 for (int j = 0; j < n; ++j) {
+                    cout << matrix[i][j] << endl;
                     if (!visited[j] && matrix[i][j] > 0 && matrix[i][j] < minWeight) {
                         minWeight = matrix[i][j];
                         u = i;
