@@ -35,9 +35,9 @@ int main() {
     matrix = GenerateData("Tree.txt");
 
     RUN(example, matrix);
-    RUN(DFS_by_Gevorkyan, matrix);
+    //RUN(DFS_by_Gevorkyan, matrix);
     //RUN(Kraskall_by_Vasukova, matrix);
-    //RUN(Prim_by_Chigladze, matrix);
+    RUN(Prim_by_Chigladze, matrix);
     //RUN(Boruvki_by_Merenkova, matrix);
     //RUN(EdgeContact_by_Tishchenko, matrix);
 
@@ -48,9 +48,9 @@ int main() {
     matrix = GenerateData("Random_Graph.txt");
 
     RUN(example, matrix);
-    RUN(DFS_by_Gevorkyan, matrix);
+    //RUN(DFS_by_Gevorkyan, matrix);
     //RUN(Kraskall_by_Vasukova, matrix);
-    //RUN(Prim_by_Chigladze, matrix);
+    RUN(Prim_by_Chigladze, matrix);
     //RUN(Boruvki_by_Merenkova, matrix);
     //RUN(EdgeContact_by_Tishchenko, matrix);
 
@@ -61,9 +61,9 @@ int main() {
     matrix = GenerateData("Complete_Graph.txt");
 
     RUN(example, matrix);
-    RUN(DFS_by_Gevorkyan, matrix);
+    //RUN(DFS_by_Gevorkyan, matrix);
     //RUN(Kraskall_by_Vasukova, matrix);
-    //RUN(Prim_by_Chigladze, matrix);
+    RUN(Prim_by_Chigladze, matrix);
     //RUN(Boruvki_by_Merenkova, matrix);
     //RUN(EdgeContact_by_Tishchenko, matrix);
 
@@ -74,9 +74,9 @@ int main() {
     matrix = GenerateData("Ostov_Line.txt");
 
     RUN(example, matrix);
-    RUN(DFS_by_Gevorkyan, matrix);
+    //RUN(DFS_by_Gevorkyan, matrix);
     //RUN(Kraskall_by_Vasukova, matrix);
-    //RUN(Prim_by_Chigladze, matrix);
+    RUN(Prim_by_Chigladze, matrix);
     //RUN(Boruvki_by_Merenkova, matrix);
     //RUN(EdgeContact_by_Tishchenko, matrix);
 
@@ -87,9 +87,9 @@ int main() {
     matrix = GenerateData("Star.txt");
 
     RUN(example, matrix);
-    RUN(DFS_by_Gevorkyan, matrix);
+    //RUN(DFS_by_Gevorkyan, matrix);
     //RUN(Kraskall_by_Vasukova, matrix);
-    //RUN(Prim_by_Chigladze, matrix);
+    RUN(Prim_by_Chigladze, matrix);
     //RUN(Boruvki_by_Merenkova, matrix);
     //RUN(EdgeContact_by_Tishchenko, matrix);
 
