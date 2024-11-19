@@ -128,9 +128,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Boruvki_by_Merenkova.cpp" />
     <ClCompile Include="DataGenerator.cpp" />
-    <ClCompile Include="Example.cpp" />
-    <ClCompile Include="gevorkyan.cpp" />
+    <ClCompile Include="EdgeContact_by_Tishchenko.cpp" />
+    <ClCompile Include="greedy_by_Gevorkyan.cpp" />
     <ClCompile Include="Kraskall_vasukova.cpp" />
     <ClCompile Include="Minimum-spanning-tree.cpp" />
     <ClCompile Include="Prim_by_Chigladze.cpp" />

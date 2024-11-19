@@ -1,5 +1,4 @@
-﻿﻿#include <iostream>
-#include <chrono>
+﻿#include <chrono>
 #include "Algorithms.h"
 #include "DataGenerator.h"
 
@@ -30,68 +29,63 @@ int main() {
     setlocale(LC_ALL, "ru-RU");
     vector<vector<int>> matrix;
 
-    cout << "Тестирование на графе-дереве (82 вершины)";
+    cout << "-------Тестирование на графе-дереве (82 вершины)-------";
     cout << "" << endl;
     matrix = GenerateData("Tree.txt");
 
-    RUN(example, matrix);
-    RUN(DFS_by_Gevorkyan, matrix);
-    //RUN(Kraskall_by_Vasukova, matrix);
-    //RUN(Prim_by_Chigladze, matrix);
-    //RUN(Boruvki_by_Merenkova, matrix);
-    //RUN(Dijkstra_by_Tishenko, matrix);
+    RUN(greedy_by_Gevorkyan, matrix);
+    RUN(Kraskall_by_Vasukova, matrix);
+    RUN(Prim_by_Chigladze, matrix);
+    RUN(Boruvki_by_Merenkova, matrix);
+    RUN(EdgeContact_by_Tishchenko, matrix);
 
 
 
-    cout << "Тестирование на случайном графе (55 вершин)";
+    cout << "-------Тестирование на случайном графе (55 вершин)-------";
     cout << "" << endl;
     matrix = GenerateData("Random_Graph.txt");
 
-    RUN(example, matrix);
-    RUN(DFS_by_Gevorkyan, matrix);
-    //RUN(Kraskall_by_Vasukova, matrix);
-    //RUN(Prim_by_Chigladze, matrix);
-    //RUN(Boruvki_by_Merenkova, matrix);
-    //RUN(Dijkstra_by_Tishenko, matrix);
+    RUN(greedy_by_Gevorkyan, matrix);
+    RUN(Kraskall_by_Vasukova, matrix);
+    RUN(Prim_by_Chigladze, matrix);
+    RUN(Boruvki_by_Merenkova, matrix);
+    RUN(EdgeContact_by_Tishchenko, matrix);
 
 
 
-    cout << "Тестирование на полном графе (20 вершин)";
+    cout << "-------Тестирование на полном графе (20 вершин)-------";
     cout << "" << endl;
     matrix = GenerateData("Complete_Graph.txt");
 
-    RUN(example, matrix);
-    RUN(DFS_by_Gevorkyan, matrix);
-    //RUN(Kraskall_by_Vasukova, matrix);
-    //RUN(Prim_by_Chigladze, matrix);
-    //RUN(Boruvki_by_Merenkova, matrix);
-    //RUN(Dijkstra_by_Tishenko, matrix);
+    RUN(greedy_by_Gevorkyan, matrix);
+    RUN(Kraskall_by_Vasukova, matrix);
+    RUN(Prim_by_Chigladze, matrix);
+    RUN(Boruvki_by_Merenkova, matrix);
+    RUN(EdgeContact_by_Tishchenko, matrix);
 
 
 
-    cout << "Тестирование на графе-линии, уже являющимся минимальным остовным деревом (20 вершин)";
+    cout << "-------Тестирование на разреженном графе (50 вершин)-------";
     cout << "" << endl;
-    matrix = GenerateData("Ostov_Line.txt");
+    matrix = GenerateData("Rareted_Graph.txt");
 
-    RUN(example, matrix);
-    RUN(DFS_by_Gevorkyan, matrix);
-    //RUN(Kraskall_by_Vasukova, matrix);
-    //RUN(Prim_by_Chigladze, matrix);
-    //RUN(Boruvki_by_Merenkova, matrix);
-    //RUN(Dijkstra_by_Tishenko, matrix);
-
+    RUN(greedy_by_Gevorkyan, matrix);
+    RUN(Kraskall_by_Vasukova, matrix);
+    RUN(Prim_by_Chigladze, matrix);
+    RUN(Boruvki_by_Merenkova, matrix);
+    RUN(EdgeContact_by_Tishchenko, matrix);
 
 
-    cout << "Тестирование на графе-звезде (6 вершин)";
+
+    cout << "-------Тестирование на графе-звезде (11 вершин)-------";
     cout << "" << endl;
     matrix = GenerateData("Star.txt");
 
-    RUN(example, matrix);
-    RUN(DFS_by_Gevorkyan, matrix);
-    //RUN(Kraskall_by_Vasukova, matrix);
-    //RUN(Prim_by_Chigladze, matrix);
-    //RUN(Boruvki_by_Merenkova, matrix);
-    //RUN(Dijkstra_by_Tishenko, matrix);
+    RUN(greedy_by_Gevorkyan, matrix);
+    RUN(Kraskall_by_Vasukova, matrix);
+    RUN(Prim_by_Chigladze, matrix);
+    RUN(Boruvki_by_Merenkova, matrix);
+    RUN(EdgeContact_by_Tishchenko, matrix);
 
     cout << "Нажмите Enter чтобы выйти...";
     cin.get();
